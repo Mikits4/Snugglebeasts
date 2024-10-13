@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.mikitstrees.heartsinharmony.mixin",
+	"package": "net.mikitstrees.snugglebeasts.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
