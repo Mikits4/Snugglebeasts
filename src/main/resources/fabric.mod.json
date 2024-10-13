@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "heartsinharmony",
+	"id": "snugglebeasts",
 	"version": "${version}",
-	"name": "Hearts in harmony",
-	"description": "Some wicked love and valantines themed mod.",
+	"name": "Snugglebeasts",
+	"description": "Snugglebeasts.",
 	"authors": [
 		"Mikits"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/user/Mikits",
-		"sources": "https://github.com/Mikits4/Hearts_in_Harmony"
+		"sources": "https://github.com/Mikits4/Snugglebeasts"
 	},
 	"license": "MIT",
-	"icon": "assets/heartsinharmony/icon.png",
+	"icon": "assets/snugglebeasts/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmony"
+			"net.mikitstrees.snugglebeasts.Snugglebeasts"
 		],
 		"fabric-datagen": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmonyDataGenerator"
+			"net.mikitstrees.snugglebeasts.SnugglebeastsDataGenerator"
 		],
 		"client": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmonyClient"
+			"net.mikitstrees.snugglebeasts.SnugglebeastsClient"
 		]
 	},
 	"mixins": [
-		"heartsinharmony.mixins.json"
+		"Snugglebeasts.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

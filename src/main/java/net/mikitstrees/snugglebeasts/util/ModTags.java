@@ -1,6 +1,6 @@
 package net.mikitstrees.snugglebeasts.util;
 
-import net.mikitstrees.snugglebeasts.HeartsinHarmony;
+import net.mikitstrees.snugglebeasts.Snugglebeasts;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
@@ -11,7 +11,7 @@ public class ModTags {
     public static class Blocks {
 
         private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(HeartsinHarmony.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(Snugglebeasts.MOD_ID, name));
         }
     }
 
@@ -19,7 +19,7 @@ public class ModTags {
         public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
 
         private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, Identifier.of(HeartsinHarmony.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(Snugglebeasts.MOD_ID, name));
         }
     }
 }

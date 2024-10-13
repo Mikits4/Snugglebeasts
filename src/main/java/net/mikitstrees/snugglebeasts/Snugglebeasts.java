@@ -12,7 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 // Very important comment
-public class HeartsinHarmony implements ModInitializer {
+public class Snugglebeasts implements ModInitializer {
 	public static final String MOD_ID = "snugglebeasts";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 

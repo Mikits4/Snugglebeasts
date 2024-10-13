@@ -8,7 +8,7 @@ import net.mikitstrees.snugglebeasts.entity.client.LovebirdEntityModel;
 import net.mikitstrees.snugglebeasts.entity.client.LovebirdEntityRenderer;
 import net.mikitstrees.snugglebeasts.entity.client.ModEntityModelLayers;
 
-public class HeartsinHarmonyClient implements ClientModInitializer {
+public class SnugglebeastsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         EntityRendererRegistry.register(ModEntities.LOVEBIRD, LovebirdEntityRenderer::new);
