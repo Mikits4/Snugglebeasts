@@ -8,6 +8,7 @@ import net.mikitstrees.snugglebeasts.entity.custom.LovebirdEntity;
 
 import net.mikitstrees.snugglebeasts.item.ModItemGroups;
 import net.mikitstrees.snugglebeasts.item.ModItems;
+import net.mikitstrees.snugglebeasts.worldgen.ModEntitySpawns;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +26,7 @@ public class Snugglebeasts implements ModInitializer {
 		ModDataComponentTypes.registerDataComponentTypes();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.LOVEBIRD, LovebirdEntity.createLovebirdAttributes());
+
+		ModEntitySpawns.addSpawns();
 	}
 }
